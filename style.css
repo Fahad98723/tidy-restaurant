@@ -1,0 +1,67 @@
+/* font family */
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Cedarville+Cursive&family=Josefin+Sans&display=swap');
+/* font-family: 'Alegreya Sans', sans-serif;
+font-family: 'Cedarville Cursive', cursive;
+font-family: 'Josefin Sans', sans-serif; */
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: linear-gradient(rgba(255, 0, 0, 0.144),rgba(255, 0, 0, 0.062)), url(images/banner.jpg) no-repeat center center;
+    background-size: cover;
+    /* height: 95vh; */
+}
+.navigation{
+    position: fixed;
+}
+.logo{
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 32px !important;
+}
+.nav-item{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    margin-right: 20px;
+    padding: 7px 10px;
+    border-radius: 7px;
+}
+.menu{
+    color: white !important;
+}
+.nav-item:hover .nav-link{
+    background: #2D635E;
+    border-radius: 7px;
+    color: white !important;
+    padding: 7px 10px;
+}
+.nav-item .active{
+    background: #2D635E;
+    border-radius: 7px;
+    color: white !important;
+    padding: 7px 10px;
+}
+.banner{
+    text-align: center;
+    padding:130px 0px;
+}
+.banner-heading h1{
+    font-size: 96px;
+    color: white;
+    font-family: 'Alegreya Sans', sans-serif;
+    margin-bottom: 20px;
+}
+.banner-heading p{
+    font-family: 'Josefin Sans', sans-serif;
+    color: white; 
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.order-btn{
+    background: #2D635E;
+    border-radius: 25px;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    font-size: 20px;
+}

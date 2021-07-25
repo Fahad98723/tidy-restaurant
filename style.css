@@ -7,6 +7,22 @@ body{
     margin: 0;
     padding: 0;
 }
+.heading h1{
+    font-size: 48px;
+    font-family: 'Cedarville Cursive', cursive;
+}
+p{
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 30px;
+}
+.order-btn a{
+    text-decoration: none;
+    color: white;
+}
+.order-btn a:hover{
+    color: black;
+}
 header{
     background: linear-gradient(rgba(255, 0, 0, 0.144),rgba(255, 0, 0, 0.062)), url(images/banner.jpg) no-repeat center center;
     background-size: cover;
@@ -78,22 +94,69 @@ header{
 .menu .nav-link:hover{
     color: black;
 }
-.menu{
-    padding: 80px 0px;
-}
 .about{
-    padding: 80px 0px;
+    padding: 50px 0px;
 }
+.menu{
+    padding: 50px 0px;
+}
+.choose{
+    padding:50px 0px;
+ }
+ .book-table{
+     padding: 50px 0px;
+ }
 .heading{
     text-align: center;
     color: black;
+    margin-bottom: 50px;
 }
-.heading h1{
-    font-size: 48px;
+.customers{
+    padding: 50px 0px; 
+    background:linear-gradient(rgba(0, 0, 0, 0.609), rgba(42, 1, 1, 0.555)), url(images/banner\ \(2\).jpg) center center no-repeat;
+    background-size: cover;
+    color: white;
+}
+.customers .heading{
+    color: white;
+}
+.service h3{
+    font-size: 24px;
+    font-family: 'Cedarville Cursive', cursive;
+    font-weight: bold;
+}
+.ratings i{
+    color: goldenrod;
+}
+.modal-body input, .modal-body textarea{
+    width: 100%;
+    font-size: 20px;
+}
+.history{
+    padding: 80px 0px;
+    background: linear-gradient(rgba(0, 0, 0, 0.609), rgba(42, 1, 1, 0.555)), url(images/banner\ \(3\).jpg) center center no-repeat;
+    background-size: cover;
+    color: white;
+}
+.history h1{
+    font-size: 50px;
     font-family: 'Cedarville Cursive', cursive;
 }
-.heading p{
-    font-size: 16px;
-    font-family: 'Josefin Sans', sans-serif;
-    line-height: 30px;
+
+.footer-1{
+    padding: 50px 0px;
+    background: #1C1C1C;
+    color: white;
+}
+.footer-1 h1{
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 50px;
+}
+.footer-2{
+    padding: 20px 0px;
+    background: black;
+    color: white;
+}
+.footer-2 p{
+    margin-bottom: 0px;
 }

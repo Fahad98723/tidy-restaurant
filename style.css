@@ -160,3 +160,20 @@ header{
 .footer-2 p{
     margin-bottom: 0px;
 }
+.footer-2 i{
+    cursor: pointer;
+}
+input,textarea:focus{
+    border: none;
+    outline: none;
+}
+.modal-body, .modal-footer{
+    background: black;
+    border-top: none!important;
+}
+.product{
+    text-align: center;
+}
+.product img{
+    height: 350px;
+}

@@ -176,4 +176,5 @@ input,textarea:focus{
 }
 .product img{
     height: 350px;
+    border-radius: 15px;
 }
